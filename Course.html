@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unviversity</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="Img/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+  <!-- Courses -->
+  <section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo ex consequuntur, ipsum possimus similique praesentium nam esse vel atque, iste illo non fugiat nesciunt asperiores? Enim minus suscipit officiis.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo ex consequuntur, ipsum possimus similique praesentium nam esse vel atque, iste illo non fugiat nesciunt asperiores? Enim minus suscipit officiis.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo ex consequuntur, ipsum possimus similique praesentium nam esse vel atque, iste illo non fugiat nesciunt asperiores? Enim minus suscipit officiis.</p>
+        </div>
+    </div>
+</section>
+<!-- Facilities -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Img/library.png" alt="">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quo ex, recusandae corrupti vitae aliquam?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Img/basketball.png" alt="">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quo ex, recusandae corrupti vitae aliquam?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Img/cafeteria.png" alt="">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quo ex, recusandae corrupti vitae aliquam?</p>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero repudiandae voluptas hic sint eius deleniti officiis iste nihil harum et pariatur magni voluptates, aspernatur, quaerat quam dolor ipsam rerum! Velit, sint error laborum asperiores labore impedit facere enim tenetur consectetur.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>Made With Rajeev Ranjan</p>
+    </section>
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");{
+            function showMenu() {
+                 navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                 navLinks.style.right = "-200px";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unviversity</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="Img/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    <!-- Blog Page -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem sed deserunt voluptates enim
+                    assumenda, repudiandae iste esse autem ratione adipisci quasi atque perferendis distinctio ab natus,
+                    reprehenderit, sit ipsa et.</p></br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil obcaecati expedita laudantium
+                    exercitationem cumque blanditiis tempora dicta magni corrupti, amet, dolor cupiditate? Aliquam atque
+                    facilis exercitationem explicabo ab, placeat fugiat?</p></br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolor. Deleniti praesentium
+                    quibusdam dicta aut ut, numquam atque voluptatibus! Eaque laboriosam cum provident molestiae quae
+                    quos modi vel hic autem!</p></br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil obcaecati expedita laudantium
+                    exercitationem cumque blanditiis tempora dicta magni corrupti, amet, dolor cupiditate? Aliquam atque
+                    facilis exercitationem explicabo ab, placeat fugiat?</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-from">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero repudiandae voluptas hic sint eius deleniti
+            officiis iste nihil harum et pariatur magni voluptates, aspernatur, quaerat quam dolor ipsam rerum! Velit,
+            sint error laborum asperiores labore impedit facere enim tenetur consectetur.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>Made With Rajeev Ranjan</p>
+    </section>
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks"); {
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        }
+    </script>
+</body>
+
+</html>
